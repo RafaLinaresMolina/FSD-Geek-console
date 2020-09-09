@@ -65,22 +65,25 @@ h1 {
   width: 45em;
   height: 19.2em;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-right: -200px;
-  margin-left: -200px;
+  flex-direction: column;
+  margin-right: -12em;
+  margin-left: -12em;
   z-index: 0;
   box-shadow: -10px 10px 25px black;
 }
 
 .upperCentralPart {
-  display: block;
-  width:50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
 }
 
 .bottomCentralPart {
-  display: block;
-  width:50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
 }
 
 #consoleSubtitle {
@@ -100,15 +103,49 @@ h1 {
   margin-bottom: -10px;
   display: inherit;
   text-align: center;
-  padding-bottom: -5px;
   color: rgb(90, 90, 90);
   width: max-content;
 }
 
+/* Central buttons */
 
+.centralButtons{
+  width: 1em;
+  height: 4em;
+  background-color: rgb(100, 100, 100);
+  border-radius: 3em;
+  rotate: 45deg;
+  border: solid 0.1em;
+}
 
-.emptySpaceCenter {
-  display: block;
-  height: 19.2em;
-  width: 40em;
+.centralButtonText{
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  transform: scaleX(2.09);
+  width: 2.5em;
+  font-size: 1em;
+}
+
+.centralMidButtons{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 2em;
+  width: 13em;
+  flex-direction: row;
+}
+
+.centralMidText{
+  display: flex;
+  margin-top:1em;
+  width: 15em;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 3em;
+}
+
+#select{
+  margin-left: 0.1em;
+}
+
+#start{
+  margin-right: 0.3em;
 }
