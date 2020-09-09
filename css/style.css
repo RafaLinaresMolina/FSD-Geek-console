@@ -16,12 +16,12 @@ h1 {
   background-color: hsl(219, 54%, 54%);
 }
 
-/* Left Pad styles */
+/* Left / Right Pad styles */
 .outerPad {
   position: relative;
   background-color: #e6e6e6;
-  width: 400px;
-  height: 400px;
+  width: 24em;
+  height: 24em;
   z-index: 1;
   border-radius: 100%;
   display: flex;
@@ -31,9 +31,9 @@ h1 {
 
 #leftInternalPart {
   background-color: #e6e6e6;
-  width: 250px;
-  height: 250px;
-  border: 2px;
+  width: 13em;
+  height: 13em;
+  border: 0.2em;
   z-index: -2;
   border-style: solid;
   border-color: rgb(90, 90, 90);
@@ -41,78 +41,29 @@ h1 {
 }
 
 #leftExternalPart{
-    box-shadow: -25px 8px 15px 
+    box-shadow: -2.5em 1em 1em 
 }
 
 /* Right Central Pad */
 
 #rightInternalPart {
   background-color: rgb(90, 90, 90);
-  width: 360px;
-  height: 360px;
-  border: 2px;
+  width: 19em;
+  height: 19em;
   z-index: -2;
   border-radius: 100%;
 }
 
 #rightExternalPart{
-    box-shadow: 25px 8px 15px; 
+    box-shadow: 2.5em 1em 1em; 
 }
 
 /* Central Pad styles */
 
-.upperCentralPart {
-  display: block;
-  width: 400px;
-}
-
-.bottomCentralPart {
-  display: block;
-  width: 400px;
-}
-
-/*
-
-#consoleSubtitle {
-    background-color: rgb(90, 90, 90);
-    color:#E6E6E6;
-    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-    transform:scale(1.5,1);
-    display: block;
-    font-size: 20px;
-    text-align: left;
-   
-} */
-
-#consoleSubtitle {
-  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-  font-size: 20px;
-  display: block;
-  transform: scaleX(1.5);
-  text-align: center;
-  background-color: rgb(90, 90, 90);
-  width: 240px;
-  margin-left: 80px;
-  color: #e6e6e6;
-}
-
-#consoleTitle {
-  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-  font-size: 42px;
-  margin-bottom: -10px;
-  display: inherit;
-  text-align: center;
-  padding-bottom: -5px;
-  color: rgb(90, 90, 90);
-}
-
 .centralPad {
-  position: relative;
-  float: left;
   background-color: #e6e6e6;
-  width: 700px;
-  height: 300px;
-  z-index: 0;
+  width: 45em;
+  height: 19.2em;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -122,7 +73,42 @@ h1 {
   box-shadow: -10px 10px 25px black;
 }
 
+.upperCentralPart {
+  display: block;
+  width:50em;
+}
+
+.bottomCentralPart {
+  display: block;
+  width:50em;
+}
+
+#consoleSubtitle {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-size: 1em;
+  display: block;
+  transform: scaleX(2.09);
+  text-align: center;
+  background-color: rgb(90, 90, 90);  
+  color: #e6e6e6;
+  width: max-content;
+}
+
+#consoleTitle {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-size: 3em;
+  margin-bottom: -10px;
+  display: inherit;
+  text-align: center;
+  padding-bottom: -5px;
+  color: rgb(90, 90, 90);
+  width: max-content;
+}
+
+
+
 .emptySpaceCenter {
   display: block;
-  width: 200px;
+  height: 19.2em;
+  width: 40em;
 }
