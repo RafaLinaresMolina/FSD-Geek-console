@@ -68,6 +68,7 @@ h1 {
   border-top: 0.1em solid black;
   border-left: 0.1em solid black;
   border-right: 0.1em solid black;
+  transition: 0.5s;
 }
 
 .down {
@@ -76,6 +77,7 @@ h1 {
   border-bottom: 0.1em solid black;
   border-left: 0.1em solid black;
   border-right: 0.1em solid black;
+  transition: 0.5s;
 }
 
 .left {
@@ -84,6 +86,7 @@ h1 {
   border-top: 0.1em solid black;
   border-bottom: 0.1em solid black;
   border-left: 0.1em solid black;
+  transition: 0.5s;
 }
 
 .right {
@@ -92,27 +95,33 @@ h1 {
   border-top: 0.1em solid black;
   border-bottom: 0.1em solid black;
   border-right: 0.1em solid black;
+  transition: 0.5s;
 }
 
 .up:hover {
   background-color: rgb(109, 109, 109);
+  transition: 0.5s;
 }
 
 .down:hover {
   background-color: rgb(109, 109, 109);
+  transition: 0.5s;
 }
 
 .left:hover {
   background-color: rgb(109, 109, 109);
+  transition: 0.5s;
 }
 
 .right:hover {
   background-color: rgb(109, 109, 109);
+  transition: 0.5s;
 }
 
 .center {
   grid-area: center;
   background-color: rgb(56, 56, 56);
+  transition: 0.5s;
 }
 
 /* Right Central Pad */
@@ -187,10 +196,12 @@ h1 {
   border-radius: 3em;
   rotate: 45deg;
   border: solid 0.1em;
+  transition: 0.5s;
 }
 
 .centralButtons:hover{
   background-color: rgb(153, 153, 153);
+  transition: 0.5s;
 }
 
 .centralButtonText {
@@ -263,6 +274,7 @@ h1 {
   margin-left: 0.3em;
   border-radius: 13em 13em 13em 13em;
   background-color: #2fb266;
+  transition: 0.5s;
 }
 
 .x {
@@ -272,6 +284,7 @@ h1 {
   margin-right: 0.3em;
   border-radius: 13em 13em 13em 13em;
   background-color: #5183da;
+  transition: 0.5s;
 }
 
 .b {
@@ -281,6 +294,7 @@ h1 {
   margin-left: 0.3em;
   border-radius: 13em 13em 13em 13em;
   background-color: #ffc82b;
+  transition: 0.5s;
 }
 
 .a {
@@ -290,20 +304,25 @@ h1 {
   margin-right: 0.3em;
   border-radius: 13em 13em 13em 13em;
   background-color: #f73b39;
+  transition: 0.5s;
 }
 
 .y:hover {
   background-color: #4df593;
+  transition: 0.5s;
 }
 
 .x:hover {
   background-color: #71a5ff;
+  transition: 0.5s;
 }
 
 .b:hover {
   background-color: #ffd86c;
+  transition: 0.5s;
 }
 
 .a:hover {
   background-color: #f36260;
+  transition: 0.5s;
 }
