@@ -57,9 +57,9 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-    ". up ."
+    ".      up        ."
     "left center right"
-    ". down .";
+    ".      down      .";
 }
 
 .up {
