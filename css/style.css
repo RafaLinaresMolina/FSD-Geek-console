@@ -194,7 +194,7 @@ h1 {
   height: 4em;
   background-color: rgb(100, 100, 100);
   border-radius: 3em;
-  rotate: 45deg;
+  transform: rotate(45deg);
   border: solid 0.1em;
   transition: 0.5s;
 }
